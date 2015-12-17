@@ -16,8 +16,6 @@ import java.util.List;
 @RestController
 public class TestController {
 
-    @Autowired
-    private DataSource dataSource;
 
     @Autowired
     private MybatisTestService mybatisTestService;
